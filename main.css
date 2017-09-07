@@ -15,7 +15,6 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
     height: 42pt;
-    border-radius: 21pt;
 }
 
 a:hover, a:active {
