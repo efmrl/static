@@ -4,17 +4,17 @@
 
 .creator {
     text-align: center;
-    font-size: 14pt;
+    font-size: 18pt;
 }
 
 a:link, a:visited {
     background-color: #f44336;
     color: white;
-    padding: 14pt 25pt;
+    padding: 18pt 25pt;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
-    border-radius: 21pt;
+    border-radius: 26pt;
 }
 
 a:hover, a:active {
