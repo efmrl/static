@@ -1,14 +1,21 @@
+.title {
+    text-align: center;
+}
+
 .creator {
     text-align: center;
+    font-size: 14pt;
 }
 
 a:link, a:visited {
     background-color: #f44336;
     color: white;
-    padding: 14px 25px;
+    padding: 14pt 25pt;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+    height: 42pt;
+    border-radius: 21pt;
 }
 
 a:hover, a:active {
