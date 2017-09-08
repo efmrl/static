@@ -23,13 +23,13 @@
 
 .newefmrl {
     font-size: 16pt;
-    width: 64em;
+    width: 48em;
     margin: 12ex auto;
 }
 
 .newefmrl label {
     display: inline-block;
-    min-width: 24em;
+    min-width: 12em;
     text-align: right;
 }
 
