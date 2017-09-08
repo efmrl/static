@@ -22,7 +22,9 @@
 }
 
 .newefmrl {
+    font-size: 16pt;
     width: 64em;
+    margin: 12ex auto;
 }
 
 .newefmrl label {
