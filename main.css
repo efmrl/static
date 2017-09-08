@@ -21,7 +21,12 @@
     background-color: red;
 }
 
+.newefmrl {
+    width: 64em;
+}
+
 .newefmrl label {
+    display: inline-block;
     min-width: 24em;
     text-align: right;
 }
