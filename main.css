@@ -7,7 +7,7 @@
     font-size: 18pt;
 }
 
-a:link, a:visited {
+a:link.creator, a:visited.creator {
     background-color: #f44336;
     color: white;
     padding: 18pt 25pt;
@@ -17,6 +17,6 @@ a:link, a:visited {
     border-radius: 26pt;
 }
 
-a:hover, a:active {
+a:hover.creator, a:active.creator {
     background-color: red;
 }
