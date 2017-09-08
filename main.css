@@ -20,3 +20,12 @@
 .creator a:hover, .creator a:active {
     background-color: red;
 }
+
+.creator label {
+    width: 14em;
+    text-align: right;
+}
+
+.newurl {
+    font-weight: bold;
+    font-size: 150%;
