@@ -21,19 +21,44 @@
     background-color: red;
 }
 
-.newefmrl {
-    font-size: 16pt;
-    width: 48em;
-    margin: 12ex auto;
+.newefmrl form {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        ". header header ."
+        ". elabel ename ."
+        ". emlabel email ."
+        ". . create ."
 }
 
-.newefmrl label {
-    display: inline-block;
-    min-width: 12em;
-    text-align: right;
-}
-
-.newurl {
+#elabel {
+    grid-area: elabel;
+    justify-self: right;
+    font-size: 150%;
     font-weight: bold;
-    font-size: 120%;
+}
+
+.title {
+    grid-area: header;
+}
+
+#ename {
+    grid-area: ename;
+    font-size: 150%;
+}
+
+#emlabel {
+    grid-area: emlabel;
+    justify-self: right;
+    padding-right: 1em;
+}
+
+#email {
+    grid-area: email;
+}
+
+#submit {
+    grid-area: create;
+    justify-self: left;
 }

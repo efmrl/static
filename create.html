@@ -10,19 +10,15 @@
         </h1>
         <div class="newefmrl">
             <form method="POST">
-                <fieldset>
-                    <legend>efmrl params</legend>
-                    <label for="ename">
-                        <span class="newurl">efmrl.com/</span>
-                    </label>
-                    <input type="text" name="ename" />
-                    <br />
-                    <label for="email">
-                        <span class="newemail">email</span>
-                    </label>
-                    <input type="text" name="email" />
-                </fieldset>
-                <input type="submit" name="create" />
+                <label for="ename" id="elabel">
+                    efmrl.com/
+                </label>
+                <input type="text" name="ename" id="ename" />
+                <label for="email" id="emlabel">
+                    email
+                </label>
+                <input type="text" name="email" id="email" />
+                <input type="submit" value="create" name="create" id="submit" />
             </form>
         </div>
     </body>
